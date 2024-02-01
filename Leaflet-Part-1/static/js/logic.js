@@ -99,8 +99,9 @@ function createMarkers(response){
             fillColor: markerColor(eqData[i].geometry.coordinates[2]),
             radius: eqData[i].properties.mag*20000
           }).
-          bindPopup("<h3> Magnitude: " + eqData[i].properties.mag + "</h3>" +
-          "<p> Place: " + eqData[i].properties.place + "</p>" +
+          bindPopup("<h3> Location: " + eqData[i].properties.place + 
+          "</br> _________________________________</h3>" +
+          "<p> Magnitude: " + eqData[i].properties.mag + "</p>" +
           "<p> Depth: " + eqData[i].geometry.coordinates[2] + "</p>")
         )};
     
