@@ -28,6 +28,24 @@ function buildMap(markerLayer){
     }).addTo(myMap);
 }
 
+function markerColor(thisMarker){
+    console.log(thisMarker)
+    if (thisMarker < 10){
+        return "green"
+    } else if (thisMarker < 30){
+        return "blue"
+    }
+    else if (thisMarker < 50){
+        return "yellow"
+    }
+    else if (thisMarker < 70){
+        return "orange"
+    }
+    else{
+        return "red"
+    };
+};
+
 
 // Function to create the markers
 function createMarkers(response){
@@ -41,11 +59,12 @@ function createMarkers(response){
             stroke: false,
             fillOpacity: 0.75,
             color: "white",
-            fillColor: "red",
+            fillColor: markerColor(eqData[i].geometry.coordinates[2]),
             radius: eqData[i].properties.mag*20000
           }).
           bindPopup("<h3> Magnitude: " + eqData[i].properties.mag + "</h3>" +
-          "<p> Place: " + eqData[i].properties.place + "</p>")
+          "<p> Place: " + eqData[i].properties.place + "</p>" +
+          "<p> Depth: " + eqData[i].geometry.coordinates[2] + "</p>")
         )};
     
     // Create marker layer
