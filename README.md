@@ -39,7 +39,7 @@ This repository contains:
 3. You can choose whether or not to display the earthquake data by unticking the box on the top right of the page.
 
 ### Part 2
-Follow the same steps as for Part 1. 
+Follow the same steps as for Part 1.<br\>
 If you get an error (or the map is not displayed), try the following:
 1. In the terminal, navigate to your Part2 folder and type `python -m http.server`
 > [!NOTE]
