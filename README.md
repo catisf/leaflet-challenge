@@ -27,8 +27,8 @@ Part 2 (advanced challenge) builds on Part 1 and gathers and adds data on tecton
 
 ## 2. Repository structure
 This repository contains:
-- [`Leaflet-Part-1`](https://github.com/catisf/leaflet-challenge/tree/main/Leaflet-Part-1), with all the files needed to run the earthquake data visualisation, including html (`index.html`), css code (`static/css/style.css`), and javascript (`static/js/logic.js`) code;
-- [`Leaflet-Part-2`](https://github.com/catisf/leaflet-challenge/tree/main/Leaflet-Part-2), contains files needed to run the earthquake and tectonic plates data visualisation. This included html (`index.html`), css code (`static/css/style.css`), and javascript (`static/js/logic.js`) code, as well as a data file (`PB2002_plates.json`) with tectonic plates data;
+- [`Leaflet-Part-1`](https://github.com/catisf/leaflet-challenge/tree/main/Leaflet-Part-1), with all the files needed to run the earthquake data visualisation, including html `index.html`, css code `static/css/style.css`, and javascript `static/js/logic.js` code;
+- [`Leaflet-Part-2`](https://github.com/catisf/leaflet-challenge/tree/main/Leaflet-Part-2), contains files needed to run the earthquake and tectonic plates data visualisation. This included html `index.html`, css code `static/css/style.css`, and javascript `static/js/logic.js` code, as well as a data file `PB2002_plates.json` with tectonic plates data;
 - [`screenshots`](https://github.com/catisf/leaflet-challenge/tree/main/screenshots) folder, with screenshot images of the visualisations. 
 
 
