@@ -14,7 +14,7 @@ The main aim of this assignment was to develope a way to visualize data from the
 Part 1 developed a way to visualize an earthquake dataset. The map displays all earthquakes in the last 30 days. The markers size reflect the magnitude of the earthquake, while their colour reflects the earthquake depth. Popups provide further information on the location the earthquake took place, as well as the magnitude and depth values.
 
 <p align="center">
-  <img src = "https://github.com/catisf/leaflet-challenge/blob/main/screenshots/Part1.png" height = "50%" width = "50%">
+  <img src = "https://github.com/catisf/leaflet-challenge/blob/main/screenshots/Part1.png" height = "75%" width = "75%">
 </p>
 <h6 align="center">Fig. 1 - Screenshot of Part 1 visualisation</h6>
 
