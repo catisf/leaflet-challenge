@@ -2,11 +2,11 @@
 ### Challenge 15 of UoB Data Analytics bootcamp - Mapping
 
 ## Content:
-1. [Overview](https://github.com/catisf/leaftlet-challenge?tab=readme-ov-file#1-overview)
-2. [Repository structure](https://github.com/catisf/leaflet-challenge?tab=readme-ov-file#3-repository-structure)
-3. [Set up and execution](https://github.com/catisf/leaflet-challenge?tab=readme-ov-file#4-set-up-and-execution)
-4. [Data source](https://github.com/catisf/leaflet-challenge?tab=readme-ov-file#5-data-source)
-5. [Source code](https://github.com/catisf/leaflet-challenge?tab=readme-ov-file#6-source-code)
+1. [Overview](https://github.com/catisf/leaflet-challenge?tab=readme-ov-file#1-overview)
+2. [Repository structure](https://github.com/catisf/leaflet-challenge?tab=readme-ov-file#2-repository-structure)
+3. [Set up and execution](https://github.com/catisf/leaflet-challenge?tab=readme-ov-file#3-set-up-and-execution)
+4. [Data source](https://github.com/catisf/leaflet-challenge?tab=readme-ov-file#4-data-source)
+5. [Source code](https://github.com/catisf/leaflet-challenge?tab=readme-ov-file#5-source-code)
 
 ## 1. Overview
 The main aim of this assignment was to develope a way to visualize data from the United States Geological Survey (USGS).
