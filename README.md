@@ -34,7 +34,7 @@ This repository contains:
 
 ## 3. Set up and execution
 ### Part 1
-1. Clone the repository to your local computer: in your Terminal type `git clone https://github.com/catisf/leaflet-challenge.git`
+1. Clone the repository to your local computer. In your Terminal type `git clone https://github.com/catisf/leaflet-challenge.git`
 2. Open `index.html` in your favourite web browser
 3. You can choose whether or not to display the earthquake data by unticking the box on the top right of the page.
 
