@@ -9,7 +9,7 @@
 5. [Source code](https://github.com/catisf/leaflet-challenge?tab=readme-ov-file#5-source-code)
 
 ## 1. Overview
-The main aim of this assignment was to develope a way to visualize data from the United States Geological Survey (USGS).
+The main aim of this assignment was to develop a way to visualize data from the United States Geological Survey (USGS).
 
 Part 1 developed a way to visualize an earthquake dataset. The map displays all earthquakes in the last 30 days. The markers size reflect the magnitude of the earthquake, while their colour reflects the earthquake depth. Popups provide further information on the location the earthquake took place, as well as the magnitude and depth values.
 
