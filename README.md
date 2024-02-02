@@ -30,11 +30,11 @@ Follow the same steps as for part 1. If you get an error (or the map is not disp
 > [!NOTE]
 > You will need to have python installed.
 
-2. Open http://localhost:<port>. So if Python served you port 8000, you would visit http://localhost:8000 to access the map. 
+2. Open http://localhost:port. As an example, if Python serves you port 8000, you would visit http://localhost:8000 to access the map. 
 3. Enjoy the map! You can change the map layer, and whether you want to see earthquake magnitude, tectonic plates or both by ticking/unticking the box on the top right of the page. 
 
 ## 4. Data source
-Earthquake data: https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
+Earthquake data: https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php <br/>
 Tectonic plates data: https://github.com/fraxen/tectonicplates/
 
 ## 5. Source code
