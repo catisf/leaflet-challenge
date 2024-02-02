@@ -11,7 +11,14 @@
 ## 1. Overview
 The main aim of this assignment was to develope a way to visualize data from the United States Geological Survey (USGS).
 
-Part 1 developed a way to visualize an earthquake dataset, whilst Part 2 (advanced challenge) gathered data on tectonic plates and provides the user with interactive options to view different map tiles and different layers (earthquakes data/and or tectonic plates).
+Part 1 developed a way to visualize an earthquake dataset. The map displays all earthquakes in the last 30 days. The markers size reflect the magnitude of the earthquake, while their colour reflects the earthquake depth. Popups provide further information on the location the earthquake took place, as well as the magnitude and depth values.
+
+<p align="center">
+  <img src = "https://github.com/catisf/belly-button-challenge/blob/main/dashboard.png" height = "50%" width = "50%">
+</p>
+<h6 align="center">Fig. 1 - Screenshot of the interactive dashboard</h6>
+
+Part 2 (advanced challenge) builds on Part 1 and gathers and adds data on tectonic plates. It also provides the user with more interactive options. The user can choose to view different map tiles (street or topographic) and different layers (earthquakes data/and or tectonic plates).
 
 ## 2. Repository structure
 This repository contains:
@@ -25,7 +32,7 @@ This repository contains:
 
 ### Part 2
 Follow the same steps as for part 1. If you get an error (or the map is not displayed), try the following:
-1. Type `python -m http.server`
+1. In the terminal, navigate to your Part2 folder and type `python -m http.server`
 
 > [!NOTE]
 > You will need to have python installed.
@@ -34,8 +41,8 @@ Follow the same steps as for part 1. If you get an error (or the map is not disp
 3. Enjoy the map! You can change the map layer, and whether you want to see earthquake magnitude, tectonic plates or both by ticking/unticking the box on the top right of the page. 
 
 ## 4. Data source
-Earthquake data: https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php <br/>
-Tectonic plates data: https://github.com/fraxen/tectonicplates/
+- Earthquake data: https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
+- Tectonic plates data: https://github.com/fraxen/tectonicplates/
 
 ## 5. Source code
 Code to fetch json data from a local file was adapted from [here](https://stackoverflow.com/questions/55966676/how-can-i-assign-the-contents-of-a-geojson-file-to-a-variable-in-javascript).
