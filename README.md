@@ -14,11 +14,16 @@ The main aim of this assignment was to develope a way to visualize data from the
 Part 1 developed a way to visualize an earthquake dataset. The map displays all earthquakes in the last 30 days. The markers size reflect the magnitude of the earthquake, while their colour reflects the earthquake depth. Popups provide further information on the location the earthquake took place, as well as the magnitude and depth values.
 
 <p align="center">
-  <img src = "https://github.com/catisf/belly-button-challenge/blob/main/dashboard.png" height = "50%" width = "50%">
+  <img src = "https://github.com/catisf/leaflet-challenge/blob/main/screenshots/Part1.png" height = "50%" width = "50%">
 </p>
-<h6 align="center">Fig. 1 - Screenshot of the interactive dashboard</h6>
+<h6 align="center">Fig. 1 - Screenshot of Part 1 visualisation</h6>
 
 Part 2 (advanced challenge) builds on Part 1 and gathers and adds data on tectonic plates. It also provides the user with more interactive options. The user can choose to view different map tiles (street or topographic) and different layers (earthquakes data/and or tectonic plates).
+
+<p align="center">
+  <img src = "https://github.com/catisf/leaflet-challenge/blob/main/screenshots/Part2.png" height = "50%" width = "50%">
+</p>
+<h6 align="center">Fig. 1 - Screenshot of Part 2 visualisation</h6>
 
 ## 2. Repository structure
 This repository contains:
